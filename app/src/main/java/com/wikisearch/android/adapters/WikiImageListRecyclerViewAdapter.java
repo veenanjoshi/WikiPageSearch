@@ -10,8 +10,8 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 import com.wikisearch.android.R;
 import com.wikisearch.android.entity.WikiBaseObject;
-import com.wikisearch.android.wikiservice.pagesearch.WikiPage;
 import com.wikisearch.android.wikiapplication.WikiSearchApplication;
+import com.wikisearch.android.wikiservice.pagesearch.WikiPage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,9 +54,9 @@ public class WikiImageListRecyclerViewAdapter extends RecyclerView.Adapter<WikiI
                         .into(viewHolder.pageImage);
             }
         }
-        /*else {
-            viewHolder.pageImage.setImageResource(R.drawable.ic_launcher);
-        }*/
+        else {
+            viewHolder.pageImage.setImageResource(R.drawable.wiki);
+        }
 
     }
 

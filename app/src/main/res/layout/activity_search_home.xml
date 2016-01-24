@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_vertical"
-        android:hint="@string/wiki_search" />
+        android:hint="@string/wiki_search"
+        android:drawableRight="@android:drawable/ic_menu_close_clear_cancel"/>
 
 
     <android.support.v7.widget.RecyclerView

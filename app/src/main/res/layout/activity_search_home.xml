@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.wikisearch.android.activity.SearchHomeActivity">
+
+    <EditText
+        android:id="@+id/search_editview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_vertical"
+        android:hint="@string/wiki_search" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_editview"
+        android:scrollbars="vertical" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_editview"
+        android:visibility="gone"
+        style="?android:progressBarStyleLarge"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

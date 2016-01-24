@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WikiSearch</string>
+
+    <string name="wiki_new_request">New Wiki Request initiated with query :: </string>
+    <string name="wiki_request_url">Wiki Request :: </string>
+    <string name="wiki_request_canceled">Wiki Request canceled:: </string>
+    <string name="wiki_search">Search</string>
+</resources>
